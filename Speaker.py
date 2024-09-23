@@ -15,6 +15,6 @@ while True:
         os.system(text)
     elif os_type == "Windows":
         speak = wincom.Dispatch("SAPI.SpVoice")
-        speak.Speak(s)  # Use 's' instead of 'text'
+        speak.Speak(s) 
     else:
         print("Use this code on either Mac or Windows")
